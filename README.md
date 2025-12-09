@@ -78,9 +78,60 @@ WCG 2.5.5 Success Criteria - Target Size
 
 * Must be CSS 44 by 44 unless inline or has equivalent link elsewhere that meets size critera.
 
+Prompt 1:
+
+"""
+This image shows the homepage for ChatGPT's chat model interaction interface. You are tasked with evaluating the accessibility of this page in terms of motor accessibility and voice input options.
+
+Based only on what you see in the image of the homepage, rate the webpage on the following scale ranging from 0 to 2:
+
+0: All input targets (buttons, links, images, etc.) are below the WCAG recommended size of 44 by 44 CSS pixels.
+1: Some input targets (buttons, links, images, etc.) are below the WCAG recommended size of 44 by 44 CSS pixels.
+2: All input targets (buttons, links, images, etc.) are at or above the WCAG recommended size of 44 by 44 CSS pixels.
+
+The response should be in JSON format. The following example below shows properly formatted output. The structure, Website, L4_Indicator and Max_Score properties should not be changed. You should insert your values for Assigned_Score and Reasoning based on the results of your analysis of the image.
+
+{   
+    "results": [
+        {
+        "Website": "ChatGPT",
+        "L4_Indicator": "Senior motor and voice accessibility options (voice input, large targets, reduced precision)",
+        "Assigned_Score": ,
+        "Max_Score": 2,
+        "Reasoning": 
+        }
+    ]
+}
+"""
+
 WCG 2.5.6 Success Criteria - Concurrent Input Modality
 
 * Must support multiple modalities of inputs unless restriciton is essential (i.e. support a voice mode)
+
+Prompt 2:
+"""
+This image shows the homepage for ChatGPT's chat model interaction interface. You are tasked with evaluating the accessibility of this page in terms of motor accessibility and voice input options.
+
+Based only on what you see in the image of the homepage, rate the webpage on the following scale ranging from 0 to 2:
+
+0: The website provides no visible voice input accessibility options.
+1: The website provides a voice input mode, but does not indicate it clearly (ex. uses an image but does not label it with text)
+2: The website provides a voice input mode that is clearly identifiable by both image and text.
+
+The response should be in JSON format. The following example below shows properly formatted output. The structure, Website, L4_Indicator and Max_Score properties should not be changed. You should insert your values for Assigned_Score and Reasoning based on the results of your analysis of the image.
+
+{   
+    "results": [
+        {
+        "Website": "ChatGPT",
+        "L4_Indicator": "Senior motor and voice accessibility options (voice input, large targets, reduced precision)",
+        "Assigned_Score": ,
+        "Max_Score": 2,
+        "Reasoning": 
+        }
+    ]
+}
+"""
 
 ### Plain-language & readability thresholds met (senior-appropriate)
 
