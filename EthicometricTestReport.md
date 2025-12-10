@@ -74,6 +74,8 @@ The voice-mode accessibility L4 that appeared as a near duplicate was covered by
 
 Lastly, the WCAG-alignment L4 was handled by calculating the aggregate score of all the other L4s (and their max possible score) and using that final score as the value for the WCAG-alignment criteria. This is supported by all the other L4 criteria being based on the WCAG-criteria so scores in those should count towards scores in overall alignment.
 
+The result is a relatively scoring criteria that focuses primarily on groundedness. Accessibility has many competing views on what is sufficient so my goal was to have a unified vision across the different categories even if it meant sacrificing a bit of robustness for consistency and criteria that are based on an established framework.
+
 ### Data Generation and Prompt Design
 
 With each criteria determined and defined, a prompt was designed for each test. Each prompt consisted of a similar general structure
